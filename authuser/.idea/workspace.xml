@@ -4,16 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="527f85e9-14e8-4595-b743-24ab6ce17e66" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/AuthuserApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ead/authuser/AuthuserApplicationTests.java" beforeDir="false" />
+    <list default="true" id="1082707e-8e30-4800-b866-ed52887f3acc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Projeto_Ead_Microservices_Springboot.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authuser.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authuser/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authuser/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authuser/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authuser/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authuser/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authuser/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authuser/src/main/java/com/ead/authuser/AuthuserApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authuser/src/main/java/com/ead/authuser/enums/UserStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authuser/src/main/java/com/ead/authuser/enums/UserType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authuser/src/main/java/com/ead/authuser/models/UserModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authuser/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authuser/src/test/java/com/ead/authuser/AuthuserApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../course/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../notification/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../notification/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +46,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="28BYQCn2JHi72H6ALTvYjqL0yeX" />
+  <component name="ProjectId" id="28BbWIW2k7EZPG4cCHm3fa4u6vD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,17 +56,37 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/claud/OneDrive/Documentos/Projeto_Ead_Microservices_Springboot/authuser/authuser/pom.xml"
+    "last_opened_file_path": "C:/Users/claud/OneDrive/Documentos/Projeto_Ead_Microservices_Springboot/notification/pom.xml"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="AuthuserApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ead.authuser.AuthuserApplication" />
+      <module name="authuser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ead.authuser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AuthuserApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="527f85e9-14e8-4595-b743-24ab6ce17e66" name="Changes" comment="" />
-      <created>1650691437384</created>
+      <changelist id="1082707e-8e30-4800-b866-ed52887f3acc" name="Changes" comment="" />
+      <created>1650692956615</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1650691437384</updated>
+      <updated>1650692956615</updated>
     </task>
     <servers />
   </component>
