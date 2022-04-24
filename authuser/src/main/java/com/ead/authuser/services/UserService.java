@@ -9,7 +9,14 @@ import java.util.UUID;
 public interface UserService {
     List<UserModel> findAll();
 
-    Optional<UserModel> findById(UUID userID);
+    Optional<UserModel> findById(UUID userId);
 
     void delete(UserModel userModel);
+
+    void save(UserModel userModel);
+
+
+    boolean existsByEmail(String email);
+
+    boolean existsByUsername(String username);
 }
