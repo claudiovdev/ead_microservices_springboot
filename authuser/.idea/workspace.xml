@@ -6,21 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1082707e-8e30-4800-b866-ed52887f3acc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/models/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ead/authuser/models/UserModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../authuser2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../authuser2/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../authuser2/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../authuser2/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../authuser2/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../authuser2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../authuser2/src/main/java/com/ead/authuser/AuthuserApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../authuser2/src/main/java/com/ead/authuser/enums/UserStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../authuser2/src/main/java/com/ead/authuser/enums/UserType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../authuser2/src/main/java/com/ead/authuser/models/UserModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../authuser2/src/main/resources/application.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../authuser2/src/test/java/com/ead/authuser/AuthuserApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../course/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/models/CourseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/models/CourseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/models/LessonModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/models/LessonModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/models/ModuleModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/models/ModuleModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,13 +47,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/claud/OneDrive/Documentos/Projeto_Ead_Microservices_Springboot/authuser/pom.xml"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/claud/OneDrive/Documentos/Projeto_Ead_Microservices_Springboot/authuser/pom.xml&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="AuthuserApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ead.authuser.AuthuserApplication" />
