@@ -35,6 +35,6 @@ public class LessonModel implements Serializable {
 
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     @ManyToOne(optional = false)
-    @Fetch(FetchMode.SUBSELECT)
+    //@Fetch(FetchMode.SUBSELECT)
     private ModuleModel module;
 }
