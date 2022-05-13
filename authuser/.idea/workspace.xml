@@ -6,15 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1082707e-8e30-4800-b866-ed52887f3acc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/controllers/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ead/authuser/controllers/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ead/authuser/controllers/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/models/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ead/authuser/models/UserModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/controllers/LessonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/controllers/LessonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/models/CourseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/models/CourseModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/models/LessonModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/models/LessonModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/models/ModuleModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/models/ModuleModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/repositories/LessonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/repositories/LessonRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/services/LessonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/services/LessonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/services/impl/lessonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/services/impl/lessonServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/spesifications/SpecificationTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/spesifications/SpecificationTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
