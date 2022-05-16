@@ -1,4 +1,4 @@
-package com.ead.course.repositories;
+package com.ead.course.models.repositories;
 
 import com.ead.course.models.LessonModel;
 import com.ead.course.models.ModuleModel;
