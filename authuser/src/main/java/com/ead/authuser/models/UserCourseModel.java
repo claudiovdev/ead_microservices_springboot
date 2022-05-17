@@ -22,6 +22,6 @@ public class UserCourseModel implements Serializable {
     private UserModel user;
 
     @Column(nullable = false)
-    private UUID courseid;
+    private UUID courseId;
 
 }
