@@ -61,7 +61,7 @@ public class CourseController {
         return ResponseEntity.status(HttpStatus.OK).body(courseService.save(courseModel));
     }
 
-    @GetMapping("/coursers")
+    @GetMapping("/courses")
     ResponseEntity<Page<CourseModel>> getAllCourses(SpecificationTemplate.CourseSpec spec,
                                                     @PageableDefault(page = 0, size = 10, sort = "courseId", direction = Sort.Direction.ASC) Pageable pageable,
                                                     @RequestParam(required = false) UUID userId) {
