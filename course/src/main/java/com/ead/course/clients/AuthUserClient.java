@@ -1,5 +1,6 @@
 package com.ead.course.clients;
 
+import com.ead.course.dtos.CourseUserDto;
 import com.ead.course.dtos.ResponsePageDto;
 import com.ead.course.dtos.UserDto;
 import com.ead.course.services.UtilsService;
@@ -20,19 +21,21 @@ import java.util.UUID;
 
 @Log4j2
 @Component
-public class CourseClients {
+public class AuthUserClient {
 
-@Autowired
+    @Autowired
     RestTemplate restTemplate;
 
-@Autowired
+    @Autowired
     UtilsService utilsService;
+
+
 
     String REQUEST_URI = "http://localhost:8087";
 
     public Page<UserDto> getAllUsersByCourse(UUID courseId, Pageable pageable){
         List<UserDto> searchResult = null;
-        String url = utilsService.createUrl(courseId, pageable);
+        String url = utilsService.createUrlGetAllUserByCourse(courseId, pageable);
         log.debug("Request URL: {} ", url);
         log.info("Request URL: {} ", url);
         try {
@@ -46,5 +49,18 @@ public class CourseClients {
         }
         log.info("Ending request / users courseId {} ", courseId);
         return new PageImpl<>(searchResult);
+    }
+
+    public ResponseEntity<UserDto> getOneUserById(UUID userId){
+        String url = REQUEST_URI + "/users/" + userId;
+        return restTemplate.exchange(url, HttpMethod.GET, null, UserDto.class);
+    }
+
+    public void postSubscriptionUserInCourse(UUID courseId, UUID userId) {
+        String url = REQUEST_URI + "/users/" + userId +  "/courses/subscription";
+        var courseUserdto = new CourseUserDto();
+        courseUserdto.setCourseId(courseId);
+        courseUserdto.setUserId(userId);
+        restTemplate.postForObject(url, courseUserdto, String.class);
     }
 }
