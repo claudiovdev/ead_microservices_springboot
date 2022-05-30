@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1082707e-8e30-4800-b866-ed52887f3acc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/clients/AuthUserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/clients/AuthUserClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/controllers/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/controllers/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/repositories/UserCorseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ead/authuser/repositories/UserCorseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/services/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ead/authuser/services/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/repositories/CourseUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/repositories/CourseUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/services/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/services/impl/CourseServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
