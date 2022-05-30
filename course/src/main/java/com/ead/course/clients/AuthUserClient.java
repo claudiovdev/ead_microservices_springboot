@@ -63,4 +63,6 @@ public class AuthUserClient {
         courseUserdto.setUserId(userId);
         restTemplate.postForObject(url, courseUserdto, String.class);
     }
+
+
 }
