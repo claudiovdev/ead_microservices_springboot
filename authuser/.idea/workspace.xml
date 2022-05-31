@@ -5,16 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1082707e-8e30-4800-b866-ed52887f3acc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../serviceregistry/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serviceregistry/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serviceregistry/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serviceregistry/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serviceregistry/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serviceregistry/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serviceregistry/src/main/java/com/ead/serviceregistry/ServiceRegistryApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serviceregistry/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../serviceregistry/src/test/java/com/ead/serviceregistry/ServiceregistryApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/AuthuserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ead/authuser/AuthuserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/config/RestTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ead/authuser/config/RestTemplateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../course/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/clients/AuthUserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/clients/AuthUserClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/configs/RestTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/configs/RestTemplateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/services/impl/UtilsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/services/impl/UtilsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serviceregistry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceregistry/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +54,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/claud/OneDrive/Documentos/Projeto_Ead_Microservices_Springboot/authuser/pom.xml&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/claud/OneDrive/Documentos/Projeto_Ead_Microservices_Springboot/serviceregistry/pom.xml"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\claud\OneDrive\Documentos\Projeto_Ead_Microservices_Springboot\authuser\src\main\java\com\ead\authuser\enums" />
