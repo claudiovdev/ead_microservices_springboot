@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1082707e-8e30-4800-b866-ed52887f3acc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../serviceregistry/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serviceregistry/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serviceregistry/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serviceregistry/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serviceregistry/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serviceregistry/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serviceregistry/src/main/java/com/ead/serviceregistry/ServiceRegistryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serviceregistry/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../serviceregistry/src/test/java/com/ead/serviceregistry/ServiceregistryApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/repositories/UserCorseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ead/authuser/repositories/UserCorseRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/services/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ead/authuser/services/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/repositories/CourseUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/repositories/CourseUserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/services/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/services/impl/CourseServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
