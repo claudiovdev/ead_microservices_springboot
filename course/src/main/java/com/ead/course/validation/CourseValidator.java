@@ -1,6 +1,6 @@
 package com.ead.course.validation;
 
-import com.ead.course.clients.AuthUserClient;
+import com.ead.course.controllers.clients.AuthUserClient;
 import com.ead.course.dtos.CourseDto;
 import com.ead.course.dtos.UserDto;
 import com.ead.course.enums.UserType;

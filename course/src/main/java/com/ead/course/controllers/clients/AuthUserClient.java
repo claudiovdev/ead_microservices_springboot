@@ -1,4 +1,4 @@
-package com.ead.course.clients;
+package com.ead.course.controllers.clients;
 
 import com.ead.course.dtos.CourseUserDto;
 import com.ead.course.dtos.ResponsePageDto;
@@ -67,4 +67,8 @@ public class AuthUserClient {
     }
 
 
+    public void deleteCourseInAuthUser(UUID courseId) {
+        String url = REQUEST_URL_AUTHUSER + "/users/courses/" + courseId;
+        restTemplate.exchange(url, HttpMethod.DELETE, null, String.class);
+    }
 }

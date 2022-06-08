@@ -1,6 +1,6 @@
 package com.ead.course.controllers;
 
-import com.ead.course.clients.AuthUserClient;
+import com.ead.course.controllers.clients.AuthUserClient;
 import com.ead.course.dtos.SubscriptionDto;
 import com.ead.course.dtos.UserDto;
 import com.ead.course.enums.UserStatus;
@@ -9,7 +9,6 @@ import com.ead.course.models.CourseUserModel;
 import com.ead.course.services.CourseService;
 import com.ead.course.services.CourseUserService;
 import lombok.extern.log4j.Log4j2;
-import org.apache.catalina.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -41,6 +40,7 @@ public class CourseUserController {
                                                                  @PathVariable(value = "courseId") UUID courseId){
             return  ResponseEntity.status(HttpStatus.OK).body(authUserClient.getAllUsersByCourse(courseId, pageable));
         }
+
         @PostMapping("/courses/{courseId}/users/subscription")
         public ResponseEntity<Object> saveSubscriptionUserInCourse(@PathVariable(value = "courseId") UUID courseId,
                                                                    @RequestBody @Valid SubscriptionDto subscriptionDto){
