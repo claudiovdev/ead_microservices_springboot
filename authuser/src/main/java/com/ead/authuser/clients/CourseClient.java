@@ -43,9 +43,9 @@ public class CourseClient {
             log.debug("Response Number of Elements: {} ", searchResult.size());
 
         } catch (HttpStatusCodeException e){
-            log.error("Error request /courses {} ", e);
+            log.error("Error request /course {} ", e);
         }
-        log.info("Ending request / courses userId {} ", userId);
+        log.info("Ending request / course userId {} ", userId);
         return new PageImpl<>(searchResult);
     }
 
