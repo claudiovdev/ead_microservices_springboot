@@ -6,16 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1082707e-8e30-4800-b866-ed52887f3acc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ead/authuser/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/controllers/UserCorseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ead/authuser/controllers/UserCorseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/dtos/UserCourseDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/models/UserCourseModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/repositories/UserCorseRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/services/UserCourseService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/services/impl/UserCourseServiceImp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/services/impl/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/specifications/SpecificationTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ead/authuser/specifications/SpecificationTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/config/RabbitmqConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ead/authuser/config/RabbitmqConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/controllers/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ead/authuser/controllers/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/models/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ead/authuser/models/UserModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ead/authuser/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/services/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ead/authuser/services/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +24,7 @@
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
