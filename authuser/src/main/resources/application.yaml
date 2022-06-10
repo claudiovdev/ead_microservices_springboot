@@ -7,7 +7,7 @@ spring:
   application:
     name: ead-authuser-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/ead-authuser
+    url: jdbc:postgresql://localhost:5432/ead-authuser-v2
     username: postgres
     password: vini4222
   jpa:
@@ -22,6 +22,8 @@ spring:
   output:
     ansi:
       enabled: Always
+  rabbitmq:
+    addresses: amqps://amzzyisp:w2E80bGw1wTd52NbU4TxmMPqKgHkQfxx@woodpecker.rmq.cloudamqp.com/amzzyisp
 
 logging:
   level:

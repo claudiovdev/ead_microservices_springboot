@@ -6,18 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="1082707e-8e30-4800-b866-ed52887f3acc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ead/authuser/controllers/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/controllers/UserCorseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ead/authuser/controllers/UserCorseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/repositories/UserCorseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ead/authuser/repositories/UserCorseRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/services/UserCourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ead/authuser/services/UserCourseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/services/impl/UserCourseServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ead/authuser/services/impl/UserCourseServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/dtos/UserCourseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/models/UserCourseModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/repositories/UserCorseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/services/UserCourseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/services/impl/UserCourseServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/services/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ead/authuser/specifications/SpecificationTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ead/authuser/specifications/SpecificationTemplate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/clients/AuthUserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/controllers/clients/AuthUserClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/controllers/CourseUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/controllers/CourseUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/services/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/services/impl/CourseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/services/impl/CourseUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/services/impl/CourseUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/validation/CourseValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/validation/CourseValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,16 +55,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/claud/OneDrive/Documentos/Projeto_Ead_Microservices_Springboot/course/pom.xml&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/claud/OneDrive/Documentos/Projeto_Ead_Microservices_Springboot_Comunicacao_Sincrona/course/pom.xml"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\claud\OneDrive\Documentos\Projeto_Ead_Microservices_Springboot\authuser\src\main\java\com\ead\authuser\enums" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ead.authuser.services.impl" />
+      <recent name="com.ead.authuser.services" />
     </key>
   </component>
   <component name="RunManager">
