@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1082707e-8e30-4800-b866-ed52887f3acc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api-gateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/services/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/java/com/ead/course/services/impl/CourseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../course/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../course/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../course/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../serviceregistry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../serviceregistry/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +50,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/claud/OneDrive/Documentos/Projeto_Ead_Microservices_Springboot/course/pom.xml"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../api-gateway/pom.xml" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\claud\OneDrive\Documentos\Projeto_Ead_Microservices_Springboot\authuser\src\main\java\com\ead\authuser\enums" />
@@ -61,6 +63,11 @@
       <recent name="com.ead.authuser.services.impl" />
       <recent name="com.ead.authuser.services" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn package" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="AuthuserApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -72,6 +79,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
