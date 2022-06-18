@@ -32,7 +32,7 @@ public class CourseUserController {
         UserService userService;
 
         @GetMapping("/courses/{courseId}/users")
-        public ResponseEntity<Object> getAllUsersByCourse(SpecificationTemplate.userSpec spec,
+        public ResponseEntity<Object> getAllUsersByCourse(SpecificationTemplate.UserSpec spec,
                                                           @PageableDefault(page = 0, size = 10, sort = "userId", direction = Sort.Direction.ASC) Pageable pageable,
                                                                  @PathVariable(value = "courseId") UUID courseId){
             Optional<CourseModel> optionalCourseModel = courseService.findById(courseId);
