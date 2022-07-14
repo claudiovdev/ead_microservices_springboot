@@ -6,6 +6,12 @@ server:
 spring:
   application:
     name: ead-authuser-service
+  config:
+    import: 'optional:configserver:'
+  cloud:
+    config:
+      discovery:
+        serviceId: ead-config-server
   datasource:
     url: jdbc:postgresql://localhost:5432/ead-authuser-v2
     username: postgres
@@ -39,6 +45,18 @@ ead:
   broker:
     exchange:
       userEvent: ead.userevent
+
+authuser:
+  refreshscope:
+    name: Michele Brito!!!!!4
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - refresh
+          - health
 
 eureka:
   client:
