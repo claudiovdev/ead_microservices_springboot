@@ -1,11 +1,19 @@
 server:
-  port: 8082
+  port: 8084
   servlet:
     context-path: '/ead-course/'
 
 spring:
   application:
     name: ead-course-service
+  config:
+    import: 'optional:configserver:'
+  cloud:
+    config:
+      discovery:
+        serviceId: ead-config-server
+
+
   datasource:
     url: jdbc:postgresql://localhost:5432/ead-course-v2
     username: postgres

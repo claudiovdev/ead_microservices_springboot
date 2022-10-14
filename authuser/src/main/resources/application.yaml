@@ -6,6 +6,12 @@ server:
 spring:
   application:
     name: ead-authuser-service
+  config:
+    import: 'optional:configserver:'
+  cloud:
+    config:
+      discovery:
+        serviceId: ead-config-server
   datasource:
     url: jdbc:postgresql://localhost:5432/ead-authuser-v2
     username: postgres
@@ -35,10 +41,22 @@ logging:
 ead:
   api:
     url:
-      courses: 'http://ead-course-service/ead-courses'
+      course: 'http://ead-course-service/ead-course'
   broker:
     exchange:
       userEvent: ead.userevent
+
+authuser:
+  refreshscope:
+    name: Michele Brito!!!!!4
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - refresh
+          - health
 
 eureka:
   client:
@@ -46,3 +64,19 @@ eureka:
       defaultZone: 'http://localhost:8761/eureka'
   instance:
     hostname: localhost
+
+resilience4j:
+  circuitbreaker:
+    instances:
+      circuitbreakerInstance:
+        slidingWindowSize: 30
+        permittedNumberOfCallsInHalfOpenState: 2
+        slidingWindowType: TIME_BASED
+        minimumNumberOfCalls: 2
+        waitDurationInOpenState: 30s
+        failureRateThreshold: 80
+  retry:
+    instances:
+      retryInstance:
+        maxRetryAttempts: 3
+        waitDuration: 5s
