@@ -6,6 +6,7 @@ import com.ead.course.models.CourseModel;
 import com.ead.course.models.UserModel;
 import com.ead.course.services.CourseService;
 import com.ead.course.services.UserService;
+
 import com.ead.course.spesifications.SpecificationTemplate;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,7 +35,7 @@ public class CourseUserController {
         @GetMapping("/courses/{courseId}/users")
         public ResponseEntity<Object> getAllUsersByCourse(SpecificationTemplate.UserSpec spec,
                                                           @PageableDefault(page = 0, size = 10, sort = "userId", direction = Sort.Direction.ASC) Pageable pageable,
-                                                                 @PathVariable(value = "courseId") UUID courseId){
+                                                          @PathVariable(value = "courseId") UUID courseId){
             Optional<CourseModel> optionalCourseModel = courseService.findById(courseId);
             if(!optionalCourseModel.isPresent()){
                 return  ResponseEntity.status(HttpStatus.NOT_FOUND).body("Course not found!");
